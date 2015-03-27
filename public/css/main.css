@@ -1,0 +1,117 @@
+/* Divs */
+
+body {
+background-color: #e7e3e3;
+}
+
+.header_bg {
+background-image: url("../images/header_bg.jpg");
+background-repeat: repeat-x;
+height: 159px;
+}
+
+.mainbody_bg {
+background-color: white;
+min-height: 750px;
+}
+
+.top_banner {
+height: 29px; 
+width: 960px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.top_banner_size {
+height: 29px;
+line-height: 35px;
+}
+
+.header_main {
+height: 94px;
+width:960px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.header_main_size {
+height: 94px;
+line-height: 120px;
+text-align: center;
+}
+
+.navigation_bar {
+width: 960px;
+height: 36px;
+margin-left: auto;
+margin-right: auto;
+line-height: 36px;
+}
+
+.navbar_ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+.navbar_li {
+display: inline;
+text-align: center;
+margin: 7px;
+vertical-align: middle;
+}
+
+.navbar_a {
+color: #ffffff;
+text-decoration: none;
+font-family: Helvetica;
+font-size: 20px;
+}
+
+.footer {
+background-color: #282828;
+height: 91px;
+}
+
+.footer_contact {
+height: 91px;
+display: block;
+}
+
+.footer_text {
+display: block;
+margin-top: 10px;
+font-family: Helvetica;
+color: #ffffff;
+}
+
+/* Text */
+
+.text_heading {
+display: block;
+font-family: Helvetica;
+font-weight: bold;
+font-size:32px;
+color: #cb333b;
+margin-left: 10px;
+}
+
+.text_normal {
+display: block;
+font-family: Helvetica;
+color: black;
+margin-left: 10px;	
+}
+.welcome_text {
+color: #ffffff;
+font-size: 17px;
+font-family: Helvetica;
+display: inline-block;
+line-height: normal;  
+}
+
+/* Images */
+.heartbeat_logo_large {
+width: 340px;
+height: 94px;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="css/960_16_col.css" />
+	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/normalise.css" />
+	<script type="text/javascript" src="http://www.parsecdn.com/js/parse-1.4.0.min.js"></script>
+    <script type="text/JavaScript" src="js/functions.js"></script>
+
+	<script type="text/javascript">
+
+	//Check to see if a user is logged in from the localstorage 
+
+	var currentUser = Parse.User.current();
+	if (currentUser) {
+
+	}else{
+		window.location.href = "http://heartbeatweb.parseapp.com/index.html";
+	}
+
+	</script>
+</head>
+
+<body>
+
+
+
+<div class="header_bg">
+<div class="container_16">    
+	<div class="top_banner">
+		
+		<div class="grid_7 top_banner_size">
+			<span class="welcome_text" >Welcome to the Heartbeat Control Interface!</span>
+		</div>
+			
+		<div class="grid_2 push_6 top_banner_size alpha ">
+			<span class="welcome_text" >Account</span>
+		</div>
+			
+		<div class="grid_2 push_6 top_banner_size alpha ">
+			<span><a class='welcome_text' href='index.html' onclick='process_logout()'>Logout</a></span>		
+		</div>
+			
+	</div>
+	<div class="header_main">
+		<div class="grid_5 header_main_size">
+			<img src="images/logo_long_white.png" class="heartbeat_logo_large" alt="Logo">
+		</div>
+		
+		
+	</div>
+	<div class="navigation_bar">
+		<ul class="navbar_ul">
+			<li class="navbar_li "><a class="navbar_a" href="default.asp">Home</a></li>
+			<li class="navbar_li  "><a class="navbar_a" href="news.asp">About</a></li>
+			<li class="navbar_li "><a class="navbar_a" href="contact.asp">Contact Staff</a></li>
+			<li class="navbar_li "><a class="navbar_a" href="about.asp">Settings</a></li>
+		</ul>
+	</div>
+	
+	<div class="mainbody_bg">
+	</div>
+	
+	<div class="clear"></div>
+	
+</div>	
+	<div class= "footer">
+		<div class="container_16">
+			<div class="grid_6 footer_contact">
+				<span class="footer_text" >Heartbeat Ltd</span>
+				<span class="footer_text" >01202 243295</span>
+				<span class="footer_text" >Copyright © 2015 Heartbeat Ltd</span>
+			</div>
+		</div>
+</div>
+
+</body>
+</html>
