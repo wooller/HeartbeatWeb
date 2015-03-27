@@ -1,0 +1,14 @@
+{
+    "applications": {
+        "Heartbeat": {
+            "applicationId": "LewmFIgnn4R9UZLRoFGh7vckZTBEXIwT7HBbADsl", 
+            "masterKey": "Xnnv2ebMUaO4APwrE4nwkn4CL5b2nJSGOO1OP5jL"
+        }, 
+        "_default": {
+            "link": "Heartbeat"
+        }
+    }, 
+    "global": {
+        "parseVersion": "1.4.0"
+    }
+}
